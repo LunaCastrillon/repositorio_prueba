@@ -19,6 +19,9 @@ nav{
     width: 100%;
 }
 
+.banner-img{
+object-fit: cover;
+}
 
 label.logo{
     color: white;
@@ -266,6 +269,7 @@ a{
 
     nav ul li {
         display: block;
+        position: relative;
         margin: 50px 0;
         line-height: 30px;
     }
