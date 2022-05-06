@@ -48,6 +48,39 @@ nav ul li a {
     text-transform: uppercase;
 }
 
+a{
+    text-decoration: none;
+}
+
+
+.d{
+    position: absolute;
+    margin-left: 30%;
+}
+
+
+
+.whats{
+    width: 8rem;
+}
+
+.face{
+    width: 5rem;
+    margin-top: 7px;
+    
+}
+
+.col{
+    width: 100%;
+    height: 10rem;    
+    background-color: #7099b9;
+}
+
+.fa-envelope {
+   
+    font-size: 10rem;
+}
+    
 a.active,a:hover {
     background-color: #1b9bff;
     transition: .5s;
