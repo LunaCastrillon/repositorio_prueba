@@ -1,0 +1,88 @@
+/*Estilizando "Ventanas*/
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+
+    width: auto;
+    height: 30rem;
+    padding: 5%;
+    margin: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgb(215, 214, 214);
+    border-radius: 5px;
+    box-shadow: inset;
+    background-color: white;
+
+    .c-img{
+        width: 350px;
+        height: 350px;
+        padding: 2%;
+        margin:0;
+    
+    }
+    
+    .text{
+        margin-left: 3%;
+        padding: 2%;
+        padding-bottom: 0;
+        border: 1px solid rgb(215, 214, 214);
+        border-radius: 10px;
+        height: 20rem;
+        
+        
+    }
+    
+    .p-class{
+        font-size: 36px;
+        padding-top: 3%;
+    }
+    
+    .p-class2{
+        padding-top: 1%;
+        color: #00A650;
+    }
+}
+
+
+.contenedor2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    width: auto;
+    height: 100%;
+    margin: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    box-shadow: inset;
+    background-color: white;
+
+    
+.catalogos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    
+    width: 80%;
+    margin: 0 auto;
+    padding: 2%;
+    
+
+}
+
+.caja{
+    background-color: white;
+    width: 200px;
+    height: 300px;
+    border: 1px solid rgb(215, 214, 214);
+    margin: 15px;
+    border-radius: 10px;
+    text-align: left;
+    color: rgb(80, 80, 80);
+}
+}
+
+
+
+
